@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1062742312525",
+    "firebase_url": "https://plandiabetes.firebaseio.com",
+    "project_id": "plandiabetes",
+    "storage_bucket": "plandiabetes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062742312525:android:94ffe18276af126ae07e04",
+        "android_client_info": {
+          "package_name": "com.example.plandiabetes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062742312525-e6d0n75h84ra2vkqs4e1b2thkvotif5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plandiabetes",
+            "certificate_hash": "b563e6bf6f0faaf6f3f44933315b3933eff273c4"
+          }
+        },
+        {
+          "client_id": "1062742312525-3mk24lg7t6rtmcqgoirphqu92d4g8iie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEIG-HBZ2glcFWxhsKMWRmEn2K5cTT8r0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062742312525-3mk24lg7t6rtmcqgoirphqu92d4g8iie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

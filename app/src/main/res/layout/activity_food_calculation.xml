@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.FoodCalculation"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="သင်ေရွးချယ်ခဲ့ေသာ အစားအေသာက်များ"
+            android:layout_marginBottom="15dp"/>
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cal_chip"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:background="#4F8AB8FD"
+        android:visibility="gone"
+        android:id="@+id/l1"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Food Name"
+            android:id="@+id/txtfood1"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:editable="false"
+            android:id="@+id/edtfood1"
+            android:hint="your gram"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:background="#4F8AB8FD"
+        android:id="@+id/l2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Food Name"
+        android:id="@+id/txtfood2"
+        android:layout_margin="10dp"/>
+        <EditText
+            android:id="@+id/edtfood2"
+            android:hint="your gram"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:background="#4F8AB8FD"
+        android:id="@+id/l3"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Food Name"
+            android:id="@+id/txtfood3"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:id="@+id/edtfood3"
+            android:hint="your gram"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:background="#4F8AB8FD"
+        android:visibility="gone"
+        android:id="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Food Name"
+            android:id="@+id/txtfood4"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:id="@+id/edtfood4"
+            android:hint="your gram"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:background="#4F8AB8FD"
+        android:id="@+id/l5"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Food Name"
+            android:id="@+id/txtfood5"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:id="@+id/edtfood5"
+            android:hint="your gram"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:background="#4F8AB8FD"
+        android:id="@+id/l6"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Food Name"
+            android:id="@+id/txtfood6"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:id="@+id/edtfood6"
+            android:hint="your gram"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:background="#4F8AB8FD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="စုစုပေါင်း Carbohydrate : "/>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/txtresult"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"
+        android:background="#4F8AB8FD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="စုစုပေါင်း Calories : "/>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/txtcalresult"/>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="20dp"
+        android:elevation="3dp"
+        android:id="@+id/btn"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        android:text="Save"
+        android:layout_margin="10dp"/>
+</LinearLayout>

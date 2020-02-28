@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.plandiabetes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ListView.WeightListView"></activity>
+        <activity android:name=".Activity.WeightActi" />
+        <activity android:name=".Activity.GenderAskActi" />
+        <activity android:name=".Activity.FoodCalculation" />
+        <activity android:name=".Activity.Calculator" />
+        <activity android:name=".ListView.MealListView" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_dish" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity android:name=".Activity.firebasetest" />
+        <activity android:name=".Activity.SearchFood" />
+        <activity android:name=".Activity.MedicationActi" />
+        <activity android:name=".ListView.MedicationListView" />
+        <activity android:name=".Activity.MealActi" />
+        <activity android:name=".ListView.ExerciseListView" />
+        <activity android:name=".Activity.ExerciseActi" />
+        <activity android:name=".ListView.GlucolseListView" />
+        <activity android:name=".Activity.GlucoseActi" />
+        <activity android:name=".Activity.Register" />
+        <activity android:name=".Activity.StartPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Login" />
+        <activity android:name=".Activity.FourthScreen" />
+        <activity android:name=".Activity.ThirdScreen" />
+        <activity android:name=".Activity.SecondScreen" />
+        <activity android:name=".Activity.FirstScreen" />
+        <activity android:name=".Activity.Home" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.allyants.notifyme.NotificationPublisher" />
+        <receiver android:name="com.allyants.notifyme.BootNotifyMe">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.cateory.HOME"/>
+            </intent-filter>
+
+        </receiver>
+    </application>
+
+</manifest>

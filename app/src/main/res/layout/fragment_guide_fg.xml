@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.GuideFg"
+    android:padding="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="1dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ဆီးချိုအကြောင်း သိကောင်းစရာများ"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="15dp"/>
+
+                <ImageView
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/dia1"/>
+                <TextView
+                    android:padding="5dp"
+                    android:text="      ဆီးချို‌ရောဂါဆိုတာသွေးအတွင်းမှာသကြားဓာတ်များလာတာပါ။အချိန်ကြာလာတာနဲ့အမျှ မြင့်တက်လာတဲ့သွေးတွင်းသကြားဓာတ်က ကိုယ်ခန္ဓာအတွင်းပိုင်းမှာရှိတဲ့ အစိတ်အပိုင်းတွေကိုထိခိုက်လာစေနိုင်ပါသည်။ဆီးချိုကြောင့် နှလုံးသွေးကြောပိတ်ခြင်း၊ လေဖြတ်ခြင်း၊ ကျောက်ကပ်၊ မျက်လုံး၊ သွားဖုံး၊ ခြေထောက်၊ အာရုံကြောတို့နှင့် သက်ဆိုင်သောကျန်းမာရေးပြဿနာများ ဖြစ်လာနိုင်ပါသည်။ ဆီးချိုရောဂါရှိသူများသည် ဆီးချိုကြောင့်သေဆုံးကြခြင်းမဟုတ်ဘဲ ဆီးချိူသေချာမထိန်းသိမ်းခြင်း၏ နောက်ဆက်တွဲပြဿနာများကြောင့် သေဆုံးကြရပါသည်။ ဆီးချိုကြောင့်အစာချေစနစ်ကိုလည်းထိခိုက်နိုင်ပါသည်။ ဒီလိုမျိုးနောက်ဆက်တွဲရောဂါများကိုကာကွယ်နိုင်ရန် သွေးပေါင်ချိန်၊ သွေးတွင်းသကြားဓာတ်၊ cholesterol level ကိုသတ်မှတ်ထားတဲ့နှုန်းထားမှာရှိနေအောင်အမြဲထိန်းထားဖို့လိုအပ်ပါသည်။ အစားအသောက်ပိုင်းဆိုင်ရာကိုလည်း ဂရုတစိုက်အလေးထားစားသောက်ပေးရန်လိုအပ်ပါသည်။ ကျန်းမာပြီးအာဟာရရှိတဲ့အစားအစာကို စားသုံးပေးရန်လိုအပ်ပါသည်။ သကြားဓာတ်များသောအစားအစာများကို ရှောင်ကြဥ◌်ပေးရန်လိုအပ်ပါသည်။ အရက်သောက်ခြင်း၊ ဆေးလိပ်သောက်ခြင်းများကိုလျှော့ချခြင်းဖြင့် ဆီးချိုနောက်ဆက်တွဲရောဂါများကို ကာကွယ်နိုင်ပါသည်။ သွေးပေါင်ချိန်နဲ့ ကိုယ်လက်စထရော မြင့်တက်တဲ့အခါမှာဖြစ်ပေါ်တတ်တဲ့ နှလုံးသွေးကြောပိတ်ခြင်း၊ လေဖြတ်ခြင်းတို့ကို ကာကွယ်ရန် သွေးပေါင်ချိန်ကိုအနည်းဆုံး ခြောက်လတစ်ခါစစ်ဆေးသင့်ပါသည်။ HbA1c level ကိုလည်း နှစ်စဥ◌်စစ်ဆေးသင့်ပါသည်။ ပုံမှန်အားဖြင့် သုံးလတစ်ခါ၊ ခြောက်လတစ်ခါ စစ်ဆေးသင့်ပါသည်။ "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtdescription"/>
+                <ImageView
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/diaeye"/>
+                <TextView
+                    android:padding="5dp"
+                    android:text="      ဆီးချိုရောဂါရှိတဲ့လူတွေမှာ HbA1c level က ၅၃ mmol/mol (သို့) ၇ ရာခိုင်နှုန်းထက် မပိုပါဘူး။ ထို့အပြင် နှစ်စဥ◌်ကိုယ်လက်စထရောကိုလည်းစစ်ဆေးသင့်ပါသည်။  ဆီးချိုရောဂါရှိသူတွေမှာ မျက်လုံးနဲ့ပတ်သက်ပြီး ထိခိုက်မှုတွေလည်းရှိလာနိုင်ပါသည်။ အစပိုင်းမှာရောဂါလက္ခဏာ ပြသတာမျိူးမတွေ့ရပေမယ့် အလင်းကိုသေချာမမြင်နိုင်တာမျိုး၊ အစက်အပျောက်ဖြစ်တာမျိုး စတဲ့ရောဂါလက္ခဏာမျိုးပြလျှင် ဆရာဝန်နဲ့ အမြန်ဆုံးပြသသင့်ပါသည်။ ဆီးချိုရောဂါရှိသူတွေမှာ ကျောက်ကပ်ရောဂါဖြစ်ပွားမှုနှုန်း များပါသည်။ ဘာကြောင့်လဲဆိုတော့ ကျောက်ကပ်အတွင်းမှာရှိတဲ့ သွေးကြောမျှင်လေးတွေပြောင်းလဲမှုဖြစ်တာကြောင့်ပါ။ ကျောက်ကပ်ရောဂါက အစပိုင်းမှာနာကျင်မှုမတွေ့ရပါဘူး။ ပြင်းထန််တဲ့အခြေအနေတစ်ခုမှသာ ရောဂါလက္ခဏာဖြစ်ပေါ်တတ်တာဖြစ်ပါသည်။ ထို့ကြောင့် တစ်နှစ်ကိုတစ်ကြိမ် ဆရာဝန်နဲ့စစ်ဆေးသင့်ပါသည်။ သွေးတွင်းသကြားဓာတ်များလာတဲ့အခါ အာရုံကြောဆိုင်ရာဝေဒနာများဖြစ်ပေါ်တတ်ပါသည်။ အရက်အလွန်အကျွံသောက်သုံးခြင်း၊ ဆီးချိုဆေးများကိုသုံးနှစ်မှငါးနှစ်အထက် သောက်သုံးခြင်းများကြောင့်လည်းဖြစ်ပေါ်တတ်ပါသည်။"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/dianerve"/>
+                <TextView
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"
+                    android:text="      ဆီးချိုကြောင့် အာရုံကြောဆိုင်ရာဝေဒနာများမဖြစ်ပေါ်စေရန် သွေးတွင်းသကြားဓာတ်ကိုသတ်မှတ်နှုန်းထားအတိုင်းရှိနေရန်၊ ဆေးလိပ်သောက်ခြင်းကိုရှောင်ကြဥ◌်ရန်၊ လက်၊ လက်မောင်း၊ ခြေထောက်၊ အစာအိမ်၊ အူသိမ်အူမ၊ ဆီးအိမ် တို့မှာ ပြဿနာတစ်စုံတစ်ရာရှိပါက ဆရာဝန်နှင့်တိုင်ပင်သင့်ပါသည်။ ဆီးချိုရောဂါရှိသူတွေမှာ အသားအရေခြောက်တာမျိုး ဖြစ်ပေါ်တတ်ပါသည်။ အသားအရေခြောက်လာသောအခါမှာ အပြင်မှရောဂါကူးစက်မှုမျိုးပိုဖြစ်နိုင်ပါသည်။ ဒီလိုအသားအရေခြောက်တာမျိုးကိုကာကွယ်နိုင်ရန် သွေးတွင်းသကြားဓာတ်နှင့် HbA1c level ကိုထိန်းညှိရန်၊ အိမ်သန့်ရှင်းရေးပြုလုပ်သောအခါမှာ လက်အိတ်ဝတ်ဆင်ရန်၊ ရေနွေးပူနှင့်ရေချိုးခြင်းကိုရှောင်ကြဥ◌်ရန်၊ ခြေဖဝါးကို heater နဲ့အနီးဆုံးမှာမထားရှိရန်၊ ရေချိုးပြီးတိုင်း cream or lotion အသုံးပြုပေးရန်၊ အရေပြားဆိုင်ရာပြဿနာများဖြစ်ပေါ်လျှင် ဆရာဝန်နဲ့ဆွေးနွေးရန်လိုအပ်ပါသည်။ ထို့အပြင် သွားနှင့်သွားဖုံးကိုလည်း သန့်ရှင်းအောင်ထားရှိသင့်ပါသည်။ သွားဆရာဝန်များနှင့် ခြောက်လတစ်ကြိမ် ပြသရန်၊ သွားကိုတစ်နေ့နှစ်ကြိမ်တိုက်ရန်၊ အံကပ်အသုံးပြုပါက အံကပ်ကိုသန့်ရှင်းစွာထားသင့်ပါသည်။ "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/diamental"/>
+                <TextView
+                    android:padding="5dp"
+                    android:text="      ဆီးချိုရောဂါရှိသူတွေသည် စိတ်လှုပ်ရှားခြင်း၊ စိတ်ဖိစီးမှုများခြင်း၊ စိတ်ဓာတ်ကျခြင်းတို့ဖြစ်ပေါ်နိုင်ပါသည်။ ထိုသို့ဖြစ်ပေါ်ခဲ့ပါက စိတ်ပညာဆရာဝန်နှင့်တိုင်ပင်ဆွေးနွေးပြီး mental health plan လုပ်ဆောင်သင့်ပါသည်။ Type2 အမျိုးအစားရှိတဲ့ဆီးချိုသမားတွေမှာ အယ်လ်ဇိုင်းမားရောဂါဖြစ်နိုင်ချေပိုများပါသည်။ အခုလိုဆီးချိုရဲ့နောက်ဆက်တွဲရောဂါများမဖြစ်ပေါ်အောင် အစားအစာများကိုဂရုတစိုက်စားသောက်သင့်ပါသည်။ ကျန်းမာပြီးအာဟာရရှိတဲ့အစားအစာတွေကသာ သွေးပေါင်ချိန်၊ သွေးတွင်းသကြားဓာတ်၊ ကိုယ်လက်စထရောကို ထိန်းညှိပေးနိုင်မှာပါ။ ကာဗိုဟိုက်ဒရိတ်ပါဝင်မှုနည်းသောအစားအစာများကိုပိုမိုစားသုံးသင့်ပါသည်။ အစားအစာစားသုံးရာတွင် တစ်ခုနဲ့တစ်ခုနှစ်နာရီခြားစားသုံးသင့်ပါသည်။ ဟင်းသီးဟင်းရွက်များကိုများများစားသုံးခြင်းက သကြားဓာတ်ကိုထိန်းညှိပေးရန်ပိုအထောက်အကူပြုပါသည်။ တစ်နေ့ကိုနာရီဝက်လောက် ရေကူးခြင်း၊ လမ်းလျှောက်ခြင်း၊ GYM ကစားခြင်းတို့ကိုပြုလုပ်သင့်ပါသည်။ ဝိတ်ချချင်သူများအတွက် တစ်နေ့ကိုတစ်နာရီလေ့ကျင့်ခန်းပြုလုပ်သင့်ပါသည်။ ယခု Application သည်ကျန်းမာ၍အာဟာရပြည့်ဝသောအစားအစာများကို စနစ်တကျစားသုံးနိုင်ရန် ရည်ရွယ်၍ပြုလုပ်ထားခြင်းဖြစ်ပါသည်။ "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+
+</FrameLayout>
