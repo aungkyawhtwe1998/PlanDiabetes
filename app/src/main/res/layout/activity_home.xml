@@ -29,7 +29,6 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/tabLayout"/>
     <com.google.android.material.tabs.TabLayout
-
         android:layout_alignParentBottom="true"
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"

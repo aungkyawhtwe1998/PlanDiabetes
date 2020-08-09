@@ -7,7 +7,7 @@
     <androidx.cardview.widget.CardView
         android:padding="5dp"
         android:layout_margin="5dp"
-        android:id="@+id/medication_cardview"
+        android:id="@+id/weight_cardview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:cardCornerRadius="20dp"
@@ -58,7 +58,7 @@
                     android:text="@string/common_google_play_services_update_button"
                     android:textSize="15sp"
                     android:textStyle="bold"
-                    app:layout_constraintEnd_toStartOf="@+id/txt_metime"
+                    app:layout_constraintEnd_toStartOf="@+id/txt_wtime"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toEndOf="@+id/imageView8"
                     app:layout_constraintTop_toTopOf="parent" />

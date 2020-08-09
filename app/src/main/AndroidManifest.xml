@@ -16,12 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListView.WeightListView"></activity>
-        <activity android:name=".Activity.WeightActi" />
-        <activity android:name=".Activity.GenderAskActi" />
-        <activity android:name=".Activity.FoodCalculation" />
-        <activity android:name=".Activity.Calculator" />
-        <activity android:name=".ListView.MealListView" />
+        <activity android:name=".ListView.WeightListView" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Activity.WeightActi" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.GenderAskActi" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.FoodCalculation" android:screenOrientation="portrait"/>
+        <activity android:name=".ListView.MealListView" android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
@@ -30,32 +29,33 @@
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
 
-        <activity android:name=".Activity.firebasetest" />
-        <activity android:name=".Activity.SearchFood" />
-        <activity android:name=".Activity.MedicationActi" />
-        <activity android:name=".ListView.MedicationListView" />
-        <activity android:name=".Activity.MealActi" />
-        <activity android:name=".ListView.ExerciseListView" />
-        <activity android:name=".Activity.ExerciseActi" />
-        <activity android:name=".ListView.GlucolseListView" />
-        <activity android:name=".Activity.GlucoseActi" />
-        <activity android:name=".Activity.Register" />
-        <activity android:name=".Activity.StartPage">
+        <activity android:name=".Activity.firebasetest" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.SearchFood" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.MedicationActi" android:screenOrientation="portrait"/>
+        <activity android:name=".ListView.MedicationListView" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.MealActi" android:screenOrientation="portrait"/>
+        <activity android:name=".ListView.ExerciseListView" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.ExerciseActi" android:screenOrientation="portrait"/>
+        <activity android:name=".ListView.GlucolseListView" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.GlucoseActi" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.Register" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.StartPage" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.Login" />
-        <activity android:name=".Activity.FourthScreen" />
-        <activity android:name=".Activity.ThirdScreen" />
-        <activity android:name=".Activity.SecondScreen" />
-        <activity android:name=".Activity.FirstScreen" />
-        <activity android:name=".Activity.Home" />
+        <activity android:name=".Activity.Login" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.FourthScreen" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.ThirdScreen" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.SecondScreen" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.FirstScreen" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.Home" android:screenOrientation="portrait"/>
         <activity
             android:name=".Activity.MainActivity"
-            android:theme="@style/SplashTheme">
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />

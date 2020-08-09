@@ -62,7 +62,6 @@
                     android:text="@string/common_google_play_services_update_button"
                     android:textSize="15sp"
                     android:textStyle="bold"
-                    app:layout_constraintEnd_toStartOf="@+id/txt_metime"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toEndOf="@+id/imageView8"
                     app:layout_constraintTop_toTopOf="parent" />
