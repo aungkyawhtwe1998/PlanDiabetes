@@ -92,7 +92,7 @@
             android:layout_gravity="center"
             android:layout_width="220dp"
             android:layout_height="40dp"
-            app:cardCornerRadius="50dp">
+            app:cardCornerRadius="20dp">
             <EditText
                 android:background="@color/colorStandardWhite"
                 android:id="@+id/edt_searchfood"
